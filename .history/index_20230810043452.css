@@ -1,0 +1,12 @@
+.titleheader{}
+.header-img{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+nav{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

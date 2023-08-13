@@ -1,0 +1,7 @@
+.header-img{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    box-shadow: 1px 0px 0px 1px;
+
+}

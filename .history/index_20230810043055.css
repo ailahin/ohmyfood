@@ -1,0 +1,11 @@
+.header-img{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+.nav-bar{
+    
+    align-items: center;
+    justify-content: center;
+}

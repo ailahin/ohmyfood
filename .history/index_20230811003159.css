@@ -1,0 +1,39 @@
+
+.header-img{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+.header-title{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+nav{
+    .nav-title{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .span-text{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .btn a{
+        align-items:center;
+        justify-content:center;
+        display: flex;
+        background-color: palevioletred;
+        width: 300px;
+        height: 20px;
+        box-sizing: border-box;
+
+       
+    }
+
+}
