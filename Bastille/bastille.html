@@ -5,23 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bastille</title>
     <link rel="stylesheet" href="bastille.css">
+    
+  <!-- Goole font -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&family=Shrikhand&display=swap"
       rel="stylesheet"
     />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/a5dfdf2455.js"
+      crossorigin="anonymous">
+    </script>
+
   </head>
   <body >
     <header>
       <div class="header-logo">
-        <img src="/images/logo/ohmyfood.png" alt="" />
+        <img src="/images/logo/ohmyfood.png" alt="logo" />
       </div>
 
       <div class="header-image-container">
         <img
-          src="/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
-          alt=""
+          src="/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+          alt="the full platte restaurant cover picture"
         />
       </div>
     </header>
@@ -35,7 +44,9 @@
         <div>
             <h1>Bastille</h1>
         </div>
-        <div class="menu-title-icon">Icon</div>
+        <div class="menu-title-icon">
+          <i class="fa-regular fa-heart fa-xl icon-select"></i>
+        </div>
       </div>
 
       <div>
@@ -44,31 +55,47 @@
         </div>
         <!-- div>div*3>(div>h1+P)+div -->
         <div>
-          <div id="entrees-1" class="item">
-            <div>
-              <h3>Citrus Squid Carpaccio</h3>
-              <p>With orange zest </p>
+          <div id="entrees-1" class="two-item">
+            <div  class="item">
+              <div class="item-text">
+                <h3>Citrus Squid Carpaccio</h3>
+                <p>With orange zest</p>
+              </div>
+              <div>
+                  <p>25€</p>
+              </div>
             </div>
-            <div>
-                <p>25€</p>
-            </div>
-          </div>
-          <div id="entrees-2" class="item">
-            <div>
-              <h3>Grandmother's Vegetable Soup</h3>
-              <p>Carrots, parsnips, jerusalem, artichoke</p>
-            </div>
-            <div>
-                <p>35€</p>
+            <div class="item-selector">
+               <p> <i class="fa-solid fa-check"> </i> </p>
             </div>
           </div>
-          <div id="entrees-3" class="item">
-            <div>
-              <h3>Onion Soup</h3>
-              <p>Revisted</p>
+          <div id="entrees-2" class=" two-item">
+            <div  class="item">
+              <div class="item-text">
+                <h3>Grandmother's Vegetable Soup</h3>
+                <p>Carrots, parsnips, jerusalem, artichoke</p>
+              </div>
+              <div>
+                  <p>35€</p>
+              </div>
             </div>
-            <div>
-                <p>20€</p>
+            <div class="item-selector">
+               <p> <i class="fa-solid fa-check"></i> </p>
+            </div>
+
+          </div>
+          <div id="entrees-3" class="two-item">
+            <div  class="item">
+              <div class="item-text">
+                <h3>Onion Soup</h3>
+                <p>Revisted</p>
+              </div>
+              <div>
+                  <p>20€</p>
+              </div>
+            </div>
+            <div class="item-selector">
+               <p> <i class="fa-solid fa-check"></i> </p>
             </div>
           </div>
         </div>
@@ -83,31 +110,47 @@
         </div>
         <!-- div>div*3>(div>h1+P)+div -->
         <div>
-          <div id="main-1" class="item">
-            <div>
-              <h3>Scallops</h3>
-              <p>With mashed persnip </p>
+          <div  class="two-item ltr" id="main-1" >
+            <div  class="item">
+              <div class="item-text"  >
+                <h3>Scallops</h3>
+                <p> With mashed parsnip </p>
+              </div>
+              <div>
+                  <p>40€</p>
+              </div>
             </div>
-            <div>
-                <p>40€</p>
+            <div class="item-selector">
+               <p> <i class="fa-solid fa-check"></i> </p>
             </div>
           </div>
-          <div id="main-2" class="item">
-            <div>
-              <h3> Marget de canard</h3>
+         <div class="two-item ltr" id="main-2" >
+          <div  class="item">
+            <div class="item-text">
+              <h3>Marget de canard</h3>
               <p>With mashed potatoes</p>
             </div>
             <div>
                 <p>35€</p>
             </div>
           </div>
-          <div id="main-3" class="item ">
-            <div>
-              <h3>Game Hen</h3>
-              <p>With vegetable gnocchis</p>
+          <div class="item-selector">
+             <p> <i class="fa-solid fa-check"></i> </p>
+          </div>
+
+         </div>
+          <div class="two-item ltr" id="main-3">
+            <div  class="item ">
+              <div class="item-text">
+                <h3>Game Hen</h3>
+                <p>With vegetable gnocchis</p>
+              </div>
+              <div>
+                  <p>44€</p>
+              </div>
             </div>
-            <div>
-                <p>44€</p>
+            <div class="item-selector">
+               <p> <i class="fa-solid fa-check"></i> </p>
             </div>
           </div>
         </div>
@@ -123,33 +166,49 @@
         </div>
         <!-- div>div*3>(div>h1+P)+div -->
         <div>
-          <div id="dessert-1" class="item ">
-            <div>
-              <h3>Floral Ice Cream</h3>
-              <p>With hazelnut butter</p>
+          <div class="two-item ltr" id="dessert-1" >
+            <div  class="item ">
+              <div class="item-text">
+                <h3>Floral Ice Cream</h3>
+                <p>With hazelnut butter</p>
+              </div>
+              <div>
+                  <p>18€</p>
+              </div>
             </div>
-            <div>
-                <p>18€</p>
+            <div class="item-selector">
+               <p> <i class="fa-solid fa-check"></i> </p>
             </div>
           </div>
-          <div id="dessert-2" class="item item-2">
-            <div>
-              <h3> Chocolate Lava Cake</h3>
+         <div class="two-item ltr" id="dessert-2">
+          <div class="item item-2">
+            <div class="item-text">
+              <h3>Chocolate Lava Cake</h3>
               <p>Revisited</p>
             </div>
             <div>
                 <p>23€</p>
             </div>
           </div>
-          <div id="dessert-3" class="item item-3">
-            <div>
-              <h3> Napolean</h3>
+          <div class="item-selector">
+             <p> <i class="fa-solid fa-check"></i> </p>
+          </div>
+         </div>
+          
+         <div class="two-item ltr" id="dessert-3" >
+          <div class="item item-3">
+            <div class="item-text">
+              <h3>Napoleon</h3>
               <p>With blueberries and marzipan</p>
             </div>
             <div>
                 <p>23€</p>
             </div>
           </div>
+          <div class="item-selector">
+             <p> <i class="fa-solid fa-check"></i> </p>
+          </div>
+         </div>
         </div>
       </div>
 
@@ -162,31 +221,33 @@
 
     <button class="button" type="button" lebel="src" >
 
-      <h1> Order</h1>
+      <p> Order</p>
       
     </button>
    </section>
 
 
-      <footer>
-        <section class="footer">
-          <h1 class="footer-title">ohmyfood</h1>
-          <div class="icon-text">
-            <div>
-              <p>icon</p>
-            </div>
-            <div>
-              <p>Suggest a restaurant</p>
-            </div>
-          </div>
-          <div class="icon-text">
-            <div><p>icon</p></div>
-            <div><p>Become a partner</p></div>
-          </div>
-          <p>Legal</p>
-          <p>Contact</p>
-        </section>
-      </footer>
+   <footer>
+    <section class="footer">
+      <h1 class="footer-title">ohmyfood</h1>
+      <div class="icon-text">
+        <div>
+          <p> <i class="fa-solid fa-utensils"></i> </p>
+        </div>
+        <div>
+          <p>Suggest a restaurant</p>
+        </div>
+      </div>
+      <div class="icon-text">
+        <div>
+          <p> <i class="fa-solid fa-handshake"></i></p>
+        </div>
+        <div><p>Become a partner</p></div>
+      </div>
+      <p>Legal</p>
+      <p>Contact</p>
+    </section>
+  </footer>
 
   </body>
 </html>
