@@ -120,7 +120,7 @@ nav{
     padding: 30px;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     background-color: rgb(247, 247, 247);
     
 }
@@ -158,6 +158,10 @@ nav{
     margin-bottom: 50px;
     text-decoration: none;
     
+}
+.menu-card:hover{
+    box-shadow: 5px 10px 10px 5px rgb(239, 238, 238);
+
 }
 .link{
     text-decoration: none;
@@ -205,6 +209,40 @@ nav{
 .icon-inside-card{
     margin-right: 50px;
 }
+.icon-select{
+    
+}
+
+.icon-select:hover{
+    background: -webkit-linear-gradient( #881e88, #9b309b);
+    -webkit-background-clip: text;
+    -webkit-text-stroke-color:transparent;
+
+}
+/* .icon-inside-card:hover {
+   background-color:#9356DC;
+   color: #9356DC;
+} */
+
+
+/* .icon-inside-card{
+    margin-right: 50px;
+    background: -webkit-linear-gradient( #dedbde, #f1eff1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black;
+
+    
+}
+
+.icon-inside-card:hover{
+
+
+    background: -webkit-linear-gradient( #9356DC, #FF79DA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+} */
 
 
 /* footer  CSS */
@@ -226,5 +264,29 @@ nav{
 
     }
 }
+
+/* Card animation */
+
+#card-animation{
+    animation-duration: 3s;
+    animation-name: card-animation;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes card-animation{
+    0%{
+        margin-top: 50%;
+        width: 100%;
+        opacity: 0;
+    }
+
+    100%{
+        margin-bottom: 0%;
+        width: 100%;
+        opacity: 1;
+    }
+
+
+  }
 
 /* } */
