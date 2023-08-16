@@ -5,18 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ohmyfood</title>
     <link rel="stylesheet" href="style.css" />
+
+    <!-- google fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&family=Shrikhand&display=swap"
       rel="stylesheet"
     />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/a5dfdf2455.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Shrikhand', cursive; -->
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shrikhand', cursive; -->
     <!-- Primary Secondary Tertiary
-#9356DC #FF79DA #99E2D0 -->
+    #9356DC #FF79DA #99E2D0 -->
+
   </head>
   <body class="body">
     <header>
@@ -24,40 +33,55 @@ font-family: 'Shrikhand', cursive; -->
         <img src="/images/logo/ohmyfood.png" alt="" />
       </div>
 
-      <div class="header-title">
-        <h3>Paris, Belleville</h3>
+      <div class="header-location">
+        <h4>
+          <span class="location-icon"> <i class="fa-solid fa-location-dot"> </i> </span> Paris,
+          Belleville
+        </h4>
       </div>
     </header>
 
     <nav>
       <div>
         <h1 class="nav-title">Book the menu you like</h1>
-        <p class="span-text">Discover top-of-the-art restaurants we</p>
-        <p class="span-text">picked for you</p>
+        <p class="nav-title-special-text">
+          Discover top-of-the-art restaurants we
+        </p>
+        <p class="nav-title-special-text">picked for you</p>
         <a href="" type="button" class="button"> Explore our restaurants</a>
       </div>
     </nav>
 
-    <section>
+    <section class="card-list">
       <h1>How it works</h1>
 
       <div class="card">
-        <div class="card-icon">icon</div>
+        <div class="card-number"> 1 </div>
+        <div class="card-icon">
+          <i class="fa-solid fa-mobile-screen fa-xl"></i>
+        </div>
         <div class="card-text">Chose a restaurant</div>
       </div>
       <div class="card">
-        <div class="card-icon">icon</div>
-        <div class="card-text">Create your menu</div>
+        <div class="card-number"> 2 </div>
+        <div class="card-icon"> 
+          <i class="fa-solid fa-ellipsis-vertical fa-xl"></i> <i class="fa-solid fa-bars  fa-xl"></i> 
+        </div>
+        <div class="card-text">Create your menu </div>
+
       </div>
       <div class="card">
-        <div class="card-icon">icon</div>
+        <div class="card-number"> 3 </div>
+        <div class="card-icon">
+          <i class="fa-solid fa-store fa-xl"></i>
+        </div>
         <div class="card-text">Go enjoy it at the restaurant</div>
       </div>
     </section>
 
     <section class="all-restaurants">
-      <div>
-        <h1>Restaurant</h1>
+      <div class="restaurant-title">
+        <h1>Restaurants</h1>
       </div>
       <div class="menu-card">
         <a class="link" href="/the-full-platte/the-full-platte.html">
@@ -72,7 +96,7 @@ font-family: 'Shrikhand', cursive; -->
           </div>
           <div class="restaurant-name">
             <div>
-              <h1>The Full Palette</h1>
+              <h3>The Full Palette</h3>
               <p>New York</p>
             </div>
 
@@ -142,14 +166,16 @@ font-family: 'Shrikhand', cursive; -->
         <h1 class="footer-title">ohmyfood</h1>
         <div class="icon-text">
           <div>
-            <p>icon</p>
+            <p> <i class="fa-solid fa-utensils"></i> </p>
           </div>
           <div>
             <p>Suggest a restaurant</p>
           </div>
         </div>
         <div class="icon-text">
-          <div><p>icon</p></div>
+          <div>
+            <p> <i class="fa-solid fa-handshake"></i></p>
+          </div>
           <div><p>Become a partner</p></div>
         </div>
         <p>Legal</p>
