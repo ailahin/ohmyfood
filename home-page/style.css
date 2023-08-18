@@ -405,7 +405,7 @@ nav{
       .all-card{
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row-reverse;
+        flex-direction: row;
          width: 100%;
         
         
@@ -684,8 +684,7 @@ nav{
     
       }
       .all-card{
-        display: flex;
-        
+        display: flex; 
          width: 100%;
         
         
