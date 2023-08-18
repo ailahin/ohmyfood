@@ -825,12 +825,20 @@ nav{
     
         }
 
-        .footer-text{
+        /* .footer-text{
             display: flex;
             flex-direction:row;
             align-items: center;
             justify-content: center;
             gap: 50px;
+        } */
+
+        .footer-text{
+            display: flex;
+            flex-direction:row;
+            align-items: center;
+            justify-content: center;
+            gap:20px;
         }
 
         .icon-text{
@@ -842,12 +850,7 @@ nav{
         }
     }
 
-    .footer-text{
-        display: flex;
-        flex-direction:column-reverse;
-        align-items: center;
-        justify-content: center;
-    }
+   
 
 
 
