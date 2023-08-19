@@ -263,6 +263,11 @@ nav{
 
 
     }
+
+    .contact-link{
+        text-decoration: none;
+        color: white;
+      }
 }
 
 /* Card animation */
@@ -562,6 +567,11 @@ nav{
     
     
         }
+
+        .contact-link{
+            text-decoration: none;
+            color: white;
+          }
     }
 
 
@@ -847,6 +857,10 @@ nav{
     
     
         }
+        .contact-link{
+            text-decoration: none;
+            color: white;
+          }
     }
 
    

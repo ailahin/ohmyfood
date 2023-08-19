@@ -58,6 +58,11 @@ body{
   font-size:1.8rem;
   
 }
+
+.contact-link{
+  text-decoration: none;
+  color: white;
+}
 .menu-title-icon{
   margin-right: 10px;
 
@@ -588,6 +593,10 @@ body{
     width: 80px;
     display: none;
   
+  }
+  .contact-link{
+    text-decoration: none;
+    color: white;
   }
   
   .item-selector p{

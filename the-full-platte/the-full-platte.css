@@ -361,6 +361,10 @@ body{
     opacity: 1;
   }
 }
+.contact-link {
+  text-decoration: none;
+  color: white;
+}
 
 /* animation for desserts*/
 
@@ -718,6 +722,13 @@ body{
 
 
     }
+
+   
+}
+
+.contact-link {
+  text-decoration: none;
+  color: white;
 }
   
   /* animation for entrees*/

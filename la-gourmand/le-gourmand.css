@@ -224,6 +224,11 @@ body{
   }
 }
 
+.contact-link{
+  text-decoration: none;
+  color: white;
+}
+
 /* animation for entrees*/
 
 #entrees-1 {
@@ -727,6 +732,11 @@ body{
 
 
     }
+}
+
+.contact-link{
+  text-decoration: none;
+  color: white;
 }
   
   /* animation for entrees*/

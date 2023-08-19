@@ -225,8 +225,11 @@ body{
       display: flex;
       gap: 10px;
 
+  }
 
-
+  .contact-link{
+    text-decoration: none;
+    color: white;
   }
 }
 
@@ -728,9 +731,11 @@ body{
     .icon-text{
         display: flex;
         gap: 10px;
+    }
 
-
-
+    .contact-link{
+      text-decoration: none;
+      color: white;
     }
 }
   
