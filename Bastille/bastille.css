@@ -1,34 +1,28 @@
 * {
-   
   box-sizing: border-box;
-  
 }
 
 :root {
-  --primary:#9356DC;
-  --secondary:#FF79DA;
-  --tertiary:#99E2D0;
+  --primary: #9356dc;
+  --secondary: #ff79da;
+  --tertiary: #99e2d0;
 }
 
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
   margin: 0;
-  
 }
 
-.back-arrow{
+.back-arrow {
   position: relative;
-  right:20%;
+  right: 20%;
   font-weight: bolder;
   font-size: 1.5rem;
   color: black;
 }
-.back-arrow:hover{
-  
-  color: #9356DC;
-
+.back-arrow:hover {
+  color: #9356dc;
 }
-
 
 .header-logo {
   width: 100%;
@@ -38,7 +32,6 @@ body{
   padding: 20px;
   & img {
     width: 200px;
-    
   }
 }
 
@@ -60,20 +53,17 @@ body{
   align-items: center;
   justify-content: space-between;
   font-family: "Shrikhand", cursive;
-  font-size:1.8rem;
-  
+  font-size: 1.8rem;
 }
-.menu-title-icon{
+.menu-title-icon {
   margin-right: 10px;
-
 }
 .main-details {
   margin-top: 40px;
 }
 
-.desserts-details{
+.desserts-details {
   margin-top: 40px;
-
 }
 
 .text-entrees {
@@ -91,12 +81,12 @@ body{
   width: 50px;
   word-break: normal;
 }
- .two-item{
+.two-item {
   display: flex;
   margin-bottom: 10px;
 }
-.item-selector{
-  background-color: #99E2D0;
+.item-selector {
+  background-color: #99e2d0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,54 +95,45 @@ body{
   margin-top: 10px;
   width: 80px;
   display: none;
-
 }
-.item-selector p{
+.item-selector p {
   color: var(--tertiary);
- display: flex;
- align-items: center;
- justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 20px;
   height: 20px;
   border-radius: 100%;
   background-color: white;
-
 }
- .item:hover + .item-selector{
+.item:hover + .item-selector {
   display: flex;
   align-items: center;
   justify-content: center;
-
-
- }
- .item:hover{
+}
+.item:hover {
   overflow: hidden;
   text-overflow: ellipsis !important;
   white-space: nowrap;
-  gap:15px;
-  direction:ltr !important;
-
+  gap: 15px;
+  direction: ltr !important;
 }
 
- .item-text {
+.item-text {
   overflow: hidden;
   text-overflow: ellipsis !important;
   direction: ltr !important;
- 
-
-} 
-
+}
 
 /* .two-item:hover + .item1{
   display: block;
   
 }  */
 
-
 .item {
   display: flex;
   align-items: end;
-  justify-content:space-between;
+  justify-content: space-between;
   box-shadow: 0px 0px 10px 5px rgb(244, 244, 244);
   border-radius: 15px;
   padding-left: 20px;
@@ -161,7 +142,6 @@ body{
   margin-top: 10px;
   width: 100%;
   gap: 5px;
-  
 }
 
 .item:hover {
@@ -169,10 +149,23 @@ body{
   border-bottom-left-radius: 15px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
-
 }
 
-.button-section{
+#selector{
+  animation-duration: 1s;
+  animation-name: selector;
+  animation-iteration-count: 1;
+  
+}
+
+#selector p{
+  animation-duration: 1s;
+  animation-name: icon;
+  animation-iteration-count: 1;
+  overflow: hidden;
+}
+
+.button-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,34 +175,33 @@ body{
   background-color: rgb(247, 248, 248);
 }
 
-.button{
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+.button {
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
   color: white;
-  font-weight:200;
+  font-weight: 200;
   border: none;
   width: 180px;
   padding: 5px;
   border-radius: 100px;
-  background: linear-gradient( to bottom , var(--secondary), var(--primary))
+  background: linear-gradient(to bottom, var(--secondary), var(--primary));
 }
 .button:hover {
-  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
-  background: linear-gradient( to bottom , var(--secondary), #6e0ee4);
-}
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 
+  background: linear-gradient(to bottom, var(--secondary), #6e0ee4);
+}
 
 /* footer */
 
-.footer{
+.footer {
   background-color: rgb(57, 57, 57);
   color: white;
   padding: 30px;
-  .footer-title{
-      font-family: 'Shrikhand', cursive;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
+  .footer-title {
+    font-family: "Shrikhand", cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   /* .footer-text{
@@ -220,20 +212,19 @@ body{
       gap: 50px;
   } */
 
-  .footer-text{
-      display: flex;
-      flex-direction:column;
-      align-items: center;
-      justify-content: center;
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  .icon-text{
-      display: flex;
-      gap: 10px;
-
+  .icon-text {
+    display: flex;
+    gap: 10px;
   }
 
-  .contact-link{
+  .contact-link {
     text-decoration: none;
     color: white;
   }
@@ -320,7 +311,6 @@ body{
   animation-name: main1;
   animation-iteration-count: 1;
   animation-delay: 0.7s;
-  
 }
 #main-2 {
   animation-duration: 3s;
@@ -458,43 +448,62 @@ body{
     width: 100%;
     opacity: 1;
   }
+
 }
 
+@keyframes selector{
+
+  0% {
+    opacity: 1;
+    width: 0%;
+  }
+
+  100% {
+    
+    opacity: 1;
+  }
+
+}
+
+@keyframes icon {
+  0% {
+    transform: rotate(0);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 /* Media query for desktop version */
 
 @media only screen and (min-width: 992px) {
   * {
-   
     box-sizing: border-box;
-    
   }
-  
+
   :root {
-    --primary:#9356DC;
-    --secondary:#FF79DA;
-    --tertiary:#99E2D0;
+    --primary: #9356dc;
+    --secondary: #ff79da;
+    --tertiary: #99e2d0;
   }
-  
-  body{
-    font-family: 'Roboto', sans-serif;
+
+  body {
+    font-family: "Roboto", sans-serif;
     margin: 0;
-    
   }
-  
-  .back-arrow{
+
+  .back-arrow {
     position: relative;
-    right:20%;
+    right: 20%;
     font-weight: bolder;
     font-size: 1.5rem;
     color: black;
   }
-  .back-arrow:hover{
-    
-    color: #9356DC;
-
+  .back-arrow:hover {
+    color: #9356dc;
   }
-  
+
   .header-logo {
     width: 100%;
     display: flex;
@@ -502,17 +511,15 @@ body{
     justify-content: center;
     padding: 20px;
     & img {
-     
       width: 200px;
-      
     }
   }
-  
+
   .header-image-container img {
     width: 100%;
     padding-bottom: 50px;
   }
-  
+
   .food-details {
     background-color: rgb(247, 248, 248);
     border-radius: 50px 50px 0px 0px;
@@ -522,72 +529,58 @@ body{
     /* backface-visibility:hidden; */
   }
 
-  
   .menu-title {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: "Shrikhand", cursive;
-    font-size:1.8rem;
-    
+    font-size: 1.8rem;
   }
-  .menu-title-icon{
+  .menu-title-icon {
     margin-right: 10px;
-  
   }
 
-  
-
-  .all-entrees{
+  .all-entrees {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-     width: 100%;
-     gap:10px;
-    
-    
+    width: 100%;
+    gap: 10px;
   }
-  .all-entrees> * {
+  .all-entrees > * {
     flex: 1 1 300px;
-}
+  }
 
-.all-main{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-   width: 100%;
-   gap:10px;
-  
-  
-}
-.all-main> * {
-  flex: 1 1 300px;
-}
+  .all-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+  }
+  .all-main > * {
+    flex: 1 1 300px;
+  }
 
-.all-desserts{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-   width: 100%;
-   gap:10px;
-  
-  
-}
-.all-desserts> * {
-  flex: 1 1 300px;
-}
-
+  .all-desserts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+  }
+  .all-desserts > * {
+    flex: 1 1 300px;
+  }
 
   .main-details {
     margin-top: 40px;
   }
-  
-  .desserts-details{
+
+  .desserts-details {
     margin-top: 40px;
-  
   }
 
-  
   .text-entrees {
     border-bottom: 2px solid rgb(35, 210, 134);
     width: 50px;
@@ -603,12 +596,12 @@ body{
     width: 50px;
     word-break: normal;
   }
-   .two-item{
+  .two-item {
     display: flex;
     margin-bottom: 10px;
   }
-  .item-selector{
-    background-color: #99E2D0;
+  .item-selector {
+    background-color: #99e2d0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -617,55 +610,46 @@ body{
     margin-top: 10px;
     width: 80px;
     display: none;
-  
   }
-  
-  .item-selector p{
-        color: var(--tertiary);
-       display: flex;
-       align-items: center;
-       justify-content: center;
-        width: 20px;
-        height: 20px;
-        border-radius: 100%;
-        background-color: white;
-  
-  }
-   .item:hover + .item-selector{
+
+  .item-selector p {
+    color: var(--tertiary);
     display: flex;
     align-items: center;
     justify-content: center;
-  
-  
-   }
-   .item:hover{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: white;
+  }
+  .item:hover + .item-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .item:hover {
     overflow: hidden;
     text-overflow: ellipsis !important;
     white-space: nowrap;
-    gap:15px;
-    direction:ltr !important;
-  
+    gap: 15px;
+    direction: ltr !important;
   }
-  
-   .item-text {
+
+  .item-text {
     overflow: hidden;
     text-overflow: ellipsis !important;
     direction: ltr !important;
-   
-  
-  } 
-  
-  
+  }
+
   /* .two-item:hover + .item1{
     display: block;
     
   }  */
-  
-  
+
   .item {
     display: flex;
     align-items: end;
-    justify-content:space-between;
+    justify-content: space-between;
     box-shadow: 0px 0px 10px 5px rgb(244, 244, 244);
     border-radius: 15px;
     padding-left: 20px;
@@ -674,55 +658,64 @@ body{
     margin-top: 10px;
     width: 100%;
     gap: 5px;
-    
   }
-  
+
   .item:hover {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
-  
+  }
+
+  #selector{
+    animation-duration: 1s;
+    animation-name: selector;
+    animation-iteration-count: 1;
+    
   }
   
-  .button-section{
+  #selector p{
+    animation-duration: 1s;
+    animation-name: icon;
+    animation-iteration-count: 1;
+    overflow: hidden;
+  }
+
+  .button-section {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 50px;
     background-color: rgb(247, 248, 248);
     margin-top: -350px;
-    
   }
-  
-  .button{
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+  .button {
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
     color: white;
-    font-weight:200;
+    font-weight: 200;
     border: none;
     width: 180px;
     padding: 5px;
     border-radius: 100px;
-    background: linear-gradient( to bottom , var(--secondary), var(--primary))
+    background: linear-gradient(to bottom, var(--secondary), var(--primary));
   }
   .button:hover {
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
-    background: linear-gradient( to bottom , var(--secondary), #6e0ee4);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to bottom, var(--secondary), #6e0ee4);
   }
-  
-  
+
   /* footer */
-  
-  .footer{
+
+  .footer {
     background-color: rgb(57, 57, 57);
     color: white;
     padding: 30px;
-    .footer-title{
-        font-family: 'Shrikhand', cursive;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
+    .footer-title {
+      font-family: "Shrikhand", cursive;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     /* .footer-text{
@@ -733,26 +726,26 @@ body{
         gap: 50px;
     } */
 
-    .footer-text{
-        display: flex;
-        flex-direction:column;
-        align-items: center;
-        justify-content: center;
+    .footer-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
 
-    .icon-text{
-        display: flex;
-        gap: 10px;
+    .icon-text {
+      display: flex;
+      gap: 10px;
     }
 
-    .contact-link{
+    .contact-link {
       text-decoration: none;
       color: white;
     }
-}
-  
+  }
+
   /* animation for entrees*/
-  
+
   #entrees-1 {
     animation-duration: 3s;
     animation-name: entrees1;
@@ -772,21 +765,21 @@ body{
     animation-delay: 0.3s;
     overflow: hidden;
   }
-  
+
   @keyframes entrees1 {
     0% {
       margin-left: 100%;
       width: 300%;
       opacity: 0;
     }
-  
+
     100% {
       margin-left: 0%;
       width: 100%;
       opacity: 1;
     }
   }
-  
+
   @keyframes entrees2 {
     0% {
       margin-left: 100%;
@@ -798,14 +791,14 @@ body{
       width: 300%;
       opacity: 0;
     }
-  
+
     100% {
       margin-left: 0%;
       width: 100%;
       opacity: 1;
     }
   }
-  
+
   @keyframes entrees3 {
     0% {
       margin-left: 100%;
@@ -817,22 +810,42 @@ body{
       width: 300%;
       opacity: 0;
     }
-  
+
     100% {
       margin-left: 0%;
       width: 100%;
       opacity: 1;
     }
   }
-  
+
+  @keyframes selector {
+    0% {
+      opacity: 1;
+      width: 0%;
+    }
+
+    100% { 
+      opacity: 1;
+    }
+  }
+
+  @keyframes icon {
+    0% {
+      transform: rotate(0);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
   /* animation for main dish*/
-  
+
   #main-1 {
     animation-duration: 3s;
     animation-name: main1;
     animation-iteration-count: 1;
     animation-delay: 0.7s;
-    
   }
   #main-2 {
     animation-duration: 3s;
@@ -846,21 +859,21 @@ body{
     animation-iteration-count: 1;
     animation-delay: 1.3s;
   }
-  
+
   @keyframes main1 {
     0% {
       margin-left: 100%;
       width: 300%;
       opacity: 0;
     }
-  
+
     100% {
       margin-left: 0%;
       width: 100%;
       opacity: 1;
     }
   }
-  
+
   @keyframes main2 {
     0% {
       margin-left: 100%;
@@ -872,14 +885,14 @@ body{
       width: 300%;
       opacity: 0;
     }
-  
+
     100% {
       margin-left: 0%;
       width: 100%;
       opacity: 1;
     }
   }
-  
+
   @keyframes main3 {
     0% {
       margin-left: 100%;
@@ -891,16 +904,16 @@ body{
       width: 300%;
       opacity: 0;
     }
-  
+
     100% {
       margin-left: 0%;
       width: 100%;
       opacity: 1;
     }
   }
-  
+
   /* animation for desserts*/
-  
+
   #dessert-1 {
     animation-duration: 3s;
     animation-name: dessert1;
@@ -919,21 +932,21 @@ body{
     animation-iteration-count: 1;
     animation-delay: 2s;
   }
-  
+
   @keyframes dessert1 {
     0% {
       margin-left: 100%;
       width: 300%;
       opacity: 0;
     }
-  
+
     100% {
       margin-left: 0%;
       width: 100%;
       opacity: 1;
     }
   }
-  
+
   @keyframes dessert2 {
     0% {
       margin-left: 100%;
@@ -945,14 +958,14 @@ body{
       width: 300%;
       opacity: 0;
     }
-  
+
     100% {
       margin-left: 0%;
       width: 100%;
       opacity: 1;
     }
   }
-  
+
   @keyframes dessert3 {
     0% {
       margin-left: 100%;
@@ -964,7 +977,7 @@ body{
       width: 300%;
       opacity: 0;
     }
-  
+
     100% {
       margin-left: 0%;
       width: 100%;
@@ -972,6 +985,23 @@ body{
     }
   }
 
+  @keyframes selector {
+    0% {
+      opacity: 1;
+      width: 0%;
+    }
 
+    100% {
+      opacity: 1;
+    }
+  }
 
+  @keyframes icon {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 }

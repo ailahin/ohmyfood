@@ -175,6 +175,20 @@ body{
 
 }
 
+#selector{
+  animation-duration: 1s;
+  animation-name: selector;
+  animation-iteration-count: 1;
+  
+}
+
+#selector p{
+  animation-duration: 1s;
+  animation-name: icon;
+  animation-iteration-count: 1;
+  overflow: hidden;
+}
+
 .button-section{
   display: flex;
   align-items: center;
@@ -186,7 +200,7 @@ body{
 }
 
 .button{
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
   color: white;
   font-weight:200;
   border: none;
@@ -241,6 +255,29 @@ body{
   animation-iteration-count: 1;
   animation-delay: 0.3s;
   overflow: hidden;
+}
+
+@keyframes selector{
+
+  0% {
+    opacity: 1;
+    width: 0%;
+  }
+
+  100% { 
+    opacity: 1;
+  }
+
+}
+
+@keyframes icon {
+  0% {
+    transform: rotate(0);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes entrees1 {
@@ -684,7 +721,7 @@ body{
   }
   
   .button{
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
     color: white;
     font-weight:200;
     border: none;
@@ -965,11 +1002,28 @@ body{
     }
   }
 
+  @keyframes selector{
 
-
-
-
-
-
+    0% {
+      opacity: 1;
+      width: 0%;
+    }
+  
+    100% {
+      
+      opacity: 1;
+    }
+  
+  }
+  
+  @keyframes icon {
+    0% {
+      transform: rotate(0);
+    }
+    
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 
 }
