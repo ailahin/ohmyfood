@@ -151,6 +151,7 @@
   }
 
   .card-icon {
+    color: rgb(138, 136, 136);
   }
 
   .all-restaurants {
@@ -273,15 +274,15 @@
   /* Card animation */
 
   #card-animation {
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-name: card-animation;
     animation-iteration-count: 1;
+    animation-delay:3s ;
   }
 
   @keyframes card-animation {
     0% {
-      margin-top: 50%;
-
+      margin-top: 10%;
       opacity: 0;
     }
 
