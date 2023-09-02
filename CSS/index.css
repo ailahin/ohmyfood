@@ -10,12 +10,14 @@
 
   .loader-wrapper {
     position: relative;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+   justify-content: center; 
+   margin-top: 10px;
 }
 
 .loader {
-    margin-left: 150px;
-    margin-top: 10px;
+   
     border: 10px solid #f3f3f3; /* Light grey */
     border-top: 10px solid #99e2d0; /* Blue */
     border-radius: 50%;
@@ -138,7 +140,7 @@
     padding: 30px;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     background-color: rgb(247, 247, 247);
   }
   .card:hover {
