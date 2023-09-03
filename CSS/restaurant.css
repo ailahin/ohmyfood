@@ -32,9 +32,11 @@
       align-items: center;
       justify-content: center;
       padding: 20px;
-      & img {
-        width: 200px;
-      }
+      
+    }
+
+    .header-logo img {
+      width: 200px;
     }
   
     .header-image-container img {
@@ -168,11 +170,14 @@
       color: white;
       font-weight: 200;
       border: none;
-      width: 180px;
-      padding: 5px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 80px;
+      padding-right: 80px;
       border-radius: 100px;
       background: linear-gradient(to bottom, var(--secondary), var(--primary));
     }
+
     .button:hover {
       box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
       background: linear-gradient(to bottom, var(--secondary), #6e0ee4);
@@ -185,6 +190,7 @@
       color: white;
       padding: 30px;
       line-height: 30px;
+    }
       .footer-title {
         font-family: "Shrikhand", cursive;
         margin-bottom: 20px;
@@ -193,7 +199,7 @@
         display: flex;
         gap: 10px;
       }
-    }
+    
   
     /* animation for entrees*/
   
@@ -240,52 +246,44 @@
   
     @keyframes entrees1 {
       0% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 10%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
       }
     }
   
     @keyframes entrees2 {
       0% {
-        margin-left: 100%;
-        width: 100%;
+        margin-top: 10%;
         opacity: 0;
       }
       25% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 9%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
       }
     }
   
     @keyframes entrees3 {
       0% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 10%;
         opacity: 0;
       }
       25% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 9%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
       }
     }
@@ -313,52 +311,44 @@
   
     @keyframes main1 {
       0% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 10%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
       }
     }
   
     @keyframes main2 {
       0% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 10%;
         opacity: 0;
       }
       25% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 9%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
       }
     }
   
     @keyframes main3 {
       0% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 10%;
         opacity: 0;
       }
       25% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 9%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
       }
     }
@@ -390,53 +380,46 @@
   
     @keyframes dessert1 {
       0% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 10%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
       }
     }
   
     @keyframes dessert2 {
       0% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 10%;
         opacity: 0;
       }
       25% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 9%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
       }
     }
   
     @keyframes dessert3 {
       0% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 10%;
         opacity: 0;
       }
       25% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 9%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
+      
       }
     }
   }
@@ -476,9 +459,10 @@
       align-items: center;
       justify-content: center;
       padding: 20px;
-      & img {
-        width: 200px;
-      }
+      
+    }
+    .header-logo img {
+      width: 200px;
     }
   
     .header-image-container img {
@@ -661,8 +645,10 @@
       color: white;
       font-weight: 200;
       border: none;
-      width: 180px;
-      padding: 5px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 80px;
+      padding-right: 80px;
       border-radius: 100px;
       background: linear-gradient(to bottom, var(--secondary), var(--primary));
     }
@@ -677,6 +663,7 @@
       background-color: rgb(57, 57, 57);
       color: white;
       padding: 30px;
+    }
       .footer-title {
         font-family: "Shrikhand", cursive;
         display: flex;
@@ -703,7 +690,7 @@
         display: flex;
         gap: 10px;
       }
-    }
+    
   
     .contact-link {
       text-decoration: none;
@@ -734,53 +721,52 @@
   
     @keyframes entrees1 {
       0% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 2%;
+        opacity: 0;
+      }
+      25% {
+        margin-top: 1%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
+      
       }
     }
   
     @keyframes entrees2 {
       0% {
-        margin-left: 100%;
-        width: 100%;
+        margin-top: 2%;
         opacity: 0;
       }
       25% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 1%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
+      
       }
     }
   
     @keyframes entrees3 {
       0% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 2%;
         opacity: 0;
       }
       25% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 1%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
+      
       }
     }
   
@@ -807,53 +793,52 @@
   
     @keyframes main1 {
       0% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 2%;
+        opacity: 0;
+      }
+      25% {
+        margin-top: 1%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
+      
       }
     }
   
     @keyframes main2 {
       0% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 2%;
         opacity: 0;
       }
       25% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 1%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
+      
       }
     }
   
     @keyframes main3 {
       0% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 2%;
         opacity: 0;
       }
       25% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 1%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
+      
       }
     }
   
@@ -878,56 +863,58 @@
       animation-delay: 2s;
     }
   
+    /* dessert animation */
+
     @keyframes dessert1 {
       0% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 2%;
+        opacity: 0;
+      }
+      25% {
+        margin-top: 1%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
+      
       }
     }
   
     @keyframes dessert2 {
       0% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 2%;
         opacity: 0;
       }
       25% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 1%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
+      
       }
     }
   
     @keyframes dessert3 {
       0% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 2%;
         opacity: 0;
       }
       25% {
-        margin-left: 100%;
-        width: 300%;
+        margin-top: 1%;
         opacity: 0;
       }
   
       100% {
-        margin-left: 0%;
-        width: 100%;
+        margin-top: 0%;
         opacity: 1;
+      
       }
+    
     }
   
     @keyframes selector {
