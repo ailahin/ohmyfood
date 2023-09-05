@@ -233,26 +233,32 @@
   }
 
   
-  .heart-solid {
-    display: none;
-  }
   
-  .heart-regular:hover {
+  
+  .heart-regular:hover{
     display: none;
+    
+  }
+  .heart-solid {
+    display: none !important;
+     
   }
   
   .heart-solid::before {
-    content: "\f004"; /* Unicode character for the heart icon */
-  font-family: "Font Awesome 5 Free"; /* Font Awesome font family */
-  font-size: 24px; /* Adjust to match your icon size */
+    
   background: linear-gradient(to bottom, var(--secondary), var(--primary));
   -webkit-background-clip: text;
   color: transparent;
-    
+
   }
+
   
   .heart-regular:hover + .heart-solid {
-    display: block;
+    display: block !important;
+    position: relative;
+   
+    
+   
     
 
   }
