@@ -42,11 +42,11 @@
     }
   }
 
-  /* #body-loading {
+  #body-loading {
     animation-name: loading;
     animation-duration: 3s;
     animation-iteration-count: 1;
-  } */
+  }
 
   :root {
     --primary: #9356dc;
@@ -346,6 +346,67 @@
     --secondary: #ff79da;
     --tertiary: #99e2d0;
   }
+  .loader-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .loader {
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #99e2d0; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 1s linear 3, hide 0s linear 3s forwards;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes hide {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      display: none;
+    }
+  }
+
+  #body-loading {
+    animation-name: loading;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+  }
+  @keyframes loading {
+    0% {
+      margin-top: 100%;
+      opacity: 0;
+    }
+    50% {
+      margin-top: 100%;
+      opacity: 0;
+    }
+    75% {
+      margin-top: 100%;
+      opacity: 0;
+    }
+
+    100% {
+      margin-bottom: 0%;
+      opacity: 1;
+    }
+  
+}
 
   .header-img {
     display: flex;
@@ -613,6 +674,8 @@
     --secondary: #ff79da;
     --tertiary: #99e2d0;
   }
+
+
 
   .header-img {
     display: flex;
