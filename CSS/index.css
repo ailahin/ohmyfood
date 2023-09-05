@@ -232,34 +232,31 @@
     margin-right: 20px;
   }
 
-
-
-.heart-solid {
-  display: none;
-}
-
-.heart-regular:hover {
-  display: none;
   
-}
-
-.heart-solid::before {
+  .heart-solid {
+    display: none;
+  }
   
+  .heart-regular:hover {
+    display: none;
+  }
+  
+  .heart-solid::before {
+    content: "\f004"; /* Unicode character for the heart icon */
+  font-family: "Font Awesome 5 Free"; /* Font Awesome font family */
+  font-size: 24px; /* Adjust to match your icon size */
   background: linear-gradient(to bottom, var(--secondary), var(--primary));
   -webkit-background-clip: text;
   color: transparent;
-  background-repeat: no-repeat;
-}
+    
+  }
+  
+  .heart-regular:hover + .heart-solid {
+    display: block;
+    
 
-.heart-regular:hover +  .heart-solid {
-  display: block;
-  position: relative;
-}
-
-
-
-
-
+  }
+  
 
 
   /* .icon-select:hover {
@@ -542,30 +539,6 @@
   }
 
 
-
-
-.heart-solid {
-  display: none;
-}
-
-.heart-regular:hover {
-  display: none;
-  
-}
-
-.heart-solid::before {
-  
-  background: linear-gradient(to bottom, var(--secondary), var(--primary));
-  -webkit-background-clip: text;
-  color: transparent;
-  background-repeat: no-repeat;
-}
-
-.heart-regular:hover +  .heart-solid {
-  display: block;
-  position: relative;
-}
-
   
 
   /* footer */
@@ -802,33 +775,6 @@
     margin-right: 50px;
   }
 
-
-
-
-.heart-solid {
-  display: none;
-}
-
-.heart-regular:hover {
-  display: none;
-  
-}
-
-.heart-solid::before {
-  
-  background: linear-gradient(to bottom, var(--secondary), var(--primary));
-  background-repeat: no-repeat;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-.heart-regular:hover +  .heart-solid {
-  display: block;
-  position: relative;
-}
-
-  
-  
 
   /* footer */
 
