@@ -42,6 +42,30 @@
     .header-image-container img {
       width: 100%;
     }
+
+    .heart-regular:hover{
+      display: none;
+      
+    }
+    .heart-solid {
+      display: none !important;
+       
+    }
+    
+    .heart-solid::before {
+      
+    background: linear-gradient(to bottom, var(--secondary), var(--primary));
+    -webkit-background-clip: text;
+    color: transparent;
+  
+    }
+  
+    
+    .heart-regular:hover + .heart-solid {
+      display: block !important;
+      position: relative;
+  
+    }
   
     .food-details {
       background-color: rgb(247, 248, 248);
@@ -468,6 +492,29 @@
     .header-image-container img {
       width: 100%;
       padding-bottom: 50px;
+    }
+    .heart-regular:hover{
+      display: none;
+      
+    }
+    .heart-solid {
+      display: none !important;
+       
+    }
+    
+    .heart-solid::before {
+      
+    background: linear-gradient(to bottom, var(--secondary), var(--primary));
+    -webkit-background-clip: text;
+    color: transparent;
+  
+    }
+  
+    
+    .heart-regular:hover + .heart-solid {
+      display: block !important;
+      position: relative;
+  
     }
   
     .food-details {
