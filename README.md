@@ -1,2 +1,2 @@
 # ohmyfood
-https://ohmyfood1.netlify.app/
+https://ailahin.github.io/ohmyfood
