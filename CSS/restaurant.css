@@ -129,7 +129,6 @@
       text-overflow: ellipsis !important;
       white-space: nowrap;
       gap: 15px;
-      direction: ltr !important;
     }
     
     
@@ -137,7 +136,7 @@
     .item-text {
       overflow: hidden;
       text-overflow: ellipsis !important;
-      direction: ltr !important;
+
     }
     
     
@@ -623,22 +622,19 @@
       align-items: center;
       justify-content: center;
     }
-    .item:hover {
+    .item:hover  {
       overflow: hidden;
-      text-overflow: ellipsis !important;
       white-space: nowrap;
+      text-overflow: ellipsis !important;
       gap: 15px;
       direction: ltr !important;
     }
-    
-    
     
     .item-text {
       overflow: hidden;
       text-overflow: ellipsis !important;
       direction: ltr !important;
     }
-    
     
     .item {
       display: flex;
